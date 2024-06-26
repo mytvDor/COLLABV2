@@ -381,7 +381,7 @@ function AboutUs() {
             <div
               className="image"
  style={{
-                maxWidth: "370px",
+                maxWidth: "300px",
                 // height: "370px",
                 overflow: "hidden",
               }}            >
