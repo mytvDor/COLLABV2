@@ -11,7 +11,7 @@ const Cards = () => {
     <div className="main-container">
       <div className="card-container">
         {/* First Card - Android App Development */}
-        <div className="card">
+        <div className="card animate-left">
           <div className="card-image">
             <img src={Android} alt="Android App Development" />
           </div>
@@ -26,7 +26,7 @@ const Cards = () => {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card animate-right">
           <div className="card-image">
             <img src={Integration} alt="Android App Development" />
           </div>
@@ -42,7 +42,7 @@ const Cards = () => {
         </div>
 
         {/* Second Card - Software Testing */}
-        <div className="card">
+        <div className="card animate-left">
           <div className="card-image">
             <img src={SoftwareTesting} alt="Software Testing" />
           </div>
@@ -76,8 +76,8 @@ const Cards = () => {
         </div> */}
 
         {/* Fourth Card - Web Designing */}
-        <div className="card">
-          <div className="card-image">
+        <div className="card animate-right">
+          <div className="card-image ">
             <img src={WebDesigning} alt="Web Designing" />
           </div>
           <div className="card-content">

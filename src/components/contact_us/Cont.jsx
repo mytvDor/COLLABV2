@@ -50,7 +50,7 @@ const Cont = () => {
     <>
       <Navbar />
       <div className="feed-form-container">
-        <form onSubmit={handleSubmit} className="feed-form">
+        <form onSubmit={handleSubmit} className="feed-form animate-left">
           <h1 style={{ textAlign: "center", margin: "40px" }}> Contact Us </h1>
           <div className="form-group single-line-input">
             <input

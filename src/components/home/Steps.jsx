@@ -5,17 +5,17 @@ const Steps = () => {
     <div>
       <h1>OL circle cards</h1>
       <ol>
-        <li>
+        <li className="animate-left">
           <div class="icon">
             <i class="fa-solid fa-bicycle"></i>
           </div>
-          <div class="title">Step 1</div>
+          <div class="title ">Step 1</div>
           <div class="descr">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
             porro.
           </div>
         </li>
-        <li>
+        <li className="animate-right">
           <div class="icon">
             <i class="fa-solid fa-car"></i>
           </div>
@@ -25,7 +25,7 @@ const Steps = () => {
             porro.
           </div>
         </li>
-        <li>
+        <li className="animate-left">
           <div class="icon">
             <i class="fa-solid fa-helicopter"></i>
           </div>
@@ -35,7 +35,7 @@ const Steps = () => {
             porro.
           </div>
         </li>
-        <li>
+        <li className="animate-right">
           <div class="icon">
             <i class="fa-solid fa-plane"></i>
           </div>
@@ -45,7 +45,7 @@ const Steps = () => {
             porro.
           </div>
         </li>
-        <li>
+        <li className="animate-left">
           <div class="icon">
             <i class="fa-solid fa-rocket"></i>
           </div>
@@ -55,7 +55,7 @@ const Steps = () => {
             porro.
           </div>
         </li>
-        <li>
+        <li className="animate-right">
           <div class="icon">
             <i class="fa-solid fa-bus"></i>
           </div>

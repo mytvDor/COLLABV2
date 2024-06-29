@@ -12,7 +12,7 @@ class androiddevpage extends Component {
           <div className="image wblock">
             <Image src="https://static.wixstatic.com/media/4cdf87_5a89b2293faf4d98bd23a49e9fafebba~mv2.jpg/v1/fill/w_613,h_664,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4cdf87_5a89b2293faf4d98bd23a49e9fafebba~mv2.jpg" />
           </div>
-          <div className="text wblock">
+          <div className="text wblock animate-down">
             <h1 className="texth1"> Application Development</h1>
             <h3>About</h3>
             <p>

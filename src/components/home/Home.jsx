@@ -47,10 +47,12 @@ function Home() {
     <>
       <Navbar></Navbar>
       <Main_slider />
-      <div className="cardsFlow" style={{ width: "100%" }}>
+      <div className="cardsFlow " style={{ width: "100%" }}>
         <Cards />
         <div className="mission">
-          <h1 className="animated fadeIn">YOUR VISION OUR SOLUTION</h1>
+          <h1 className="animated fadeIn animate-down">
+            YOUR VISION OUR SOLUTION
+          </h1>
         </div>
         <Steps></Steps>
         <CardBrochure />

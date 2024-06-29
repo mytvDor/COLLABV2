@@ -290,6 +290,7 @@ function AboutUs() {
 
               fontWeight: "900",
             }}
+            className="animate-down"
           >
             About Collab Vision Infosolutions
           </h1>
@@ -300,6 +301,7 @@ function AboutUs() {
               fontSize: "20px",
               fontWeight: "700",
             }}
+            className="animate-right"
           >
             {" "}
             CVIS is a leading company focused on Cloud Technology (Salesforce
@@ -321,7 +323,7 @@ function AboutUs() {
             }}
           >
             <div
-              className="leftOpp"
+              className="leftOpp "
               style={{
                 minWidth: "350px",
                 maxWidth: "60%",
@@ -329,7 +331,7 @@ function AboutUs() {
               }}
             >
               {" "}
-              <div className="mission-section">
+              <div className="mission-section animate-left">
                 <h2
                   style={{
                     fontSize: "40px",
@@ -351,7 +353,7 @@ function AboutUs() {
                   Education, Manufacturing, Healthcare, and more.
                 </p>
               </div>
-              <div className="opportunities-section">
+              <div className="opportunities-section animate-right">
                 <h2
                   style={{
                     fontSize: "40px",
@@ -379,8 +381,12 @@ function AboutUs() {
             </div>
 
             <div
-              className="image"
-              style={{ minWidth: "350px", maxWidth: "40", overflow: "hidden" }}
+              className="image animate-down"
+              style={{
+                maxWidth: "230px",
+                // height: "370px",
+                overflow: "hidden",
+              }}
             >
               <img
                 src="https://static.wixstatic.com/media/c837a6_73b0c47b3d1549e4b96178367ef6c597~mv2.jpg/v1/fill/w_912,h_1510,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_73b0c47b3d1549e4b96178367ef6c597~mv2.jpg"
